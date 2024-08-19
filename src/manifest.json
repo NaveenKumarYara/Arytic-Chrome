@@ -1,0 +1,19 @@
+{
+  "name": "Arytic extension",
+  "version": "1.0",
+  "description": "Arytic one stop for hiring solution",
+  "manifest_version": 3,
+  "permissions": [
+      "activeTab",
+      "webNavigation",
+      "storage",
+      "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+      "default_popup": "index.html"
+  }
+}
